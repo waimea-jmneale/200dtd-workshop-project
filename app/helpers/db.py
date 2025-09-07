@@ -14,7 +14,7 @@ load_dotenv()
 TURSO_URL = getenv("TURSO_URL")
 TURSO_KEY = getenv("TURSO_KEY")
 
-# Load local DB file path
+# Load local DB file path 
 LOCAL_DB_PATH = getenv("LOCAL_DB_PATH")
 
 
