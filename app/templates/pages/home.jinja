@@ -22,12 +22,11 @@
     <article>
 
         <ul>
-            {% for thing in things %}
+            {% for tool in tools %}
 
                 <li>
-                    <a href="/thing/{{ thing.id }}">
-                        {{ thing.name }}
-                    </a>
+                        {{ tool.name }}
+                    
                 </li>
 
             {% else %}
@@ -53,14 +52,26 @@
                 required
             >
 
+        <h3>Todays date...</h3>
+
             <input
-                type="text"
+                type="date"
                 name="date"
+                min="0"
+                placeholder="Date checked"
+                required
+            >
+
+        <h3>Date last checked...</h3>
+
+            <input
+                type="date"
+                name="last check"
                 min="0"
                 placeholder="Date last checked"
                 required
             >
-
+            
             <button>Add the Equipment</button>
 
         </form>
