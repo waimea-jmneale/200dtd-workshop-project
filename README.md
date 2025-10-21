@@ -1,6 +1,6 @@
 Mechanical Engineering Project
 
-by YOUR NAME HERE
+by Jayden Neale
 
 
 ---
