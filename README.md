@@ -1,4 +1,4 @@
-# PROJECT NAME HERE
+Mechanical Engineering Project
 
 by YOUR NAME HERE
 
